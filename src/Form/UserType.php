@@ -23,9 +23,7 @@ class UserType extends AbstractType
                
             ->add('username', TextType::class)
 
-            ->add('postalCode', TextType::class, [
-        
-            ])
+            ->add('postalCode', TextType::class)
 
             ->add('age', IntegerType::class)
 
